@@ -1,0 +1,32 @@
+/* purgecss start ignore 
+@tailwind base;
+@tailwind components;*/
+/* purgecss end ignore 
+@tailwind utilities;*/
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 75px;
+    }
+}
+
+@media (min-width: 576px) {
+    .bod-pt-scroll {
+        padding-top: 50px;
+    }
+    .nav-sticky {
+        position: fixed;
+        min-width: 100%;
+        max-height: 50px;
+        top: 0;
+        background-color: #3d4852!important;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+        transition: all .25s ease-in;
+    }
+}
