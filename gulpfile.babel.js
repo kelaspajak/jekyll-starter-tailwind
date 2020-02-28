@@ -8,7 +8,9 @@ import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
 
 const SITE_ROOT = "./_site";
-const POST_BUILD_STYLESHEET = `${SITE_ROOT}/assets/css/`;
+//const POST_BUILD_STYLESHEET = `${SITE_ROOT}/assets/css/`;
+//test
+const POST_BUILD_STYLESHEET = "./assets/css/";
 const PRE_BUILD_STYLESHEET = "./src/style.css";
 const TAILWIND_CONFIG = "./tailwind.config.js";
 
